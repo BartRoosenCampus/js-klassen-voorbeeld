@@ -1,0 +1,17 @@
+.large {
+    font-size: 2em;
+    text-align: center;
+    background-color: yellowgreen;
+    padding: 1em;
+    border: 1px solid black;
+}
+
+.locked {
+    color: red;
+    background-color: yellow;
+}
+
+#diceArea {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
